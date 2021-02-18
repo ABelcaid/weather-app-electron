@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <input type="text" class="search" id="searchCity" placeholder="Search for a city..." />
+    </header>
+    <main>
+      <section class="location">
+        <div id="city" class="city">Agadir, MA</div>
+        <div><img class="icon" id="icon" src="http://openweathermap.org/img/w/04d.png" alt="Weather icon"></div>
+
+
+      </section>
+      <div class="current">
+        <div id="temperature" class="temp">15<span>°c</span></div>
+
+        <div id="minMax" class="minMax">13°c / 16°c</div>
+      </div>
+    </main>
+  </div>
+  <script src="render.js"></script>
+</body>
+
+</html>

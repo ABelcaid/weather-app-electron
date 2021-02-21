@@ -2,6 +2,8 @@
 
 A simple weather app using Electron
 
+Read the article here : https://medium.com/@belcaid/how-to-create-a-cross-platform-desktop-app-using-electron-bf12e5b8fcb9
+
 ----------
 
 # Getting started
